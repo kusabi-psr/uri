@@ -1,0 +1,26 @@
+{
+    "name": "kusabi-psr/uri",
+    "description": "An implementation of a PSR-7 & PSR-17 conforming Uri library",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Christian Harvey",
+            "email": "kusabi.software@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kusabi\\Psr\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
