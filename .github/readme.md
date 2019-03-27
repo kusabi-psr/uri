@@ -3,6 +3,7 @@
 [![Licence Badge](https://img.shields.io/github/license/kusabi-psr/uri.svg)](https://img.shields.io/github/license/kusabi-psr/uri.svg)
 [![Issues Badge](https://img.shields.io/github/issues/kusabi-psr/uri.svg)](https://img.shields.io/github/issues/kusabi-psr/uri.svg)
 [![Codacy Badge](https://img.shields.io/codacy/grade/a2236972c0084da8a41a880cb7e017b8.svg)](https://img.shields.io/codacy/grade/bec9194f88a843fd9abd4edef6102f9b.svg)
+[![Coverage Badge](https://img.shields.io/codacy/coverage/a2236972c0084da8a41a880cb7e017b8.svg)](https://img.shields.io/codacy/grade/bec9194f88a843fd9abd4edef6102f9b.svg)
 [![Code Size](https://img.shields.io/github/languages/code-size/kusabi-psr/uri.svg)](https://img.shields.io/github/languages/code-size/kusabi-psr/uri.svg)
 
 An implementation of a [PSR-7](https://www.php-fig.org/psr/psr-7/) & [PSR-17](https://www.php-fig.org/psr/psr-17/) conforming Uri library
