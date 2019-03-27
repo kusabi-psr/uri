@@ -21,3 +21,27 @@ echo $uri->getPath();
 echo $uri->getQuery();
 echo $uri->getFragment();
 ```
+
+
+# Using the Uri Factory
+
+The Uri factory can be used to create the Uri instance too.
+
+
+```php
+use Kusabi\Psr\UriFactory;
+
+// Instantiate a Uri instance
+$factory = new UriFactory();
+$uri = $factory->createUri('https://user:pass@www.my-site.com:8080/users/22?filter=name#bottom');
+
+// Fetch the properties of the Uri instance
+echo $uri->getScheme();
+echo $uri->getAuthority();
+echo $uri->getUserInfo();
+echo $uri->getHost();
+echo $uri->getPort();
+echo $uri->getPath();
+echo $uri->getQuery();
+echo $uri->getFragment();
+```
