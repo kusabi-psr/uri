@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use Kusabi\Psr\Exceptions\InvalidUriException;
-use Kusabi\Psr\Uri;
-use Kusabi\Psr\UriFactory;
+use Kusabi\Uri\Exceptions\InvalidUriException;
+use Kusabi\Uri\Uri;
+use Kusabi\Uri\UriFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\UriFactoryInterface;
 use Psr\Http\Message\UriInterface;

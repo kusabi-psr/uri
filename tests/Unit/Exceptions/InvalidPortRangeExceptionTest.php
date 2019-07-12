@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\Exceptions;
 
-use Kusabi\Psr\Exceptions\InvalidPortRangeException;
+use Kusabi\Uri\Exceptions\InvalidPortRangeException;
 use PHPUnit\Framework\TestCase;
 
 class InvalidPortRangeExceptionTest extends TestCase

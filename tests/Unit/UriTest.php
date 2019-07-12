@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use Kusabi\Psr\Exceptions\InvalidPortRangeException;
-use Kusabi\Psr\Exceptions\InvalidUriException;
-use Kusabi\Psr\Uri;
+use Kusabi\Uri\Exceptions\InvalidPortRangeException;
+use Kusabi\Uri\Exceptions\InvalidUriException;
+use Kusabi\Uri\Uri;
 use PHPUnit\Framework\TestCase;
 
 class UriTest extends TestCase

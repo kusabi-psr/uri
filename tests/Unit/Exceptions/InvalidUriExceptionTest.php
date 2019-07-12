@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\Exceptions;
 
-use Kusabi\Psr\Exceptions\InvalidUriException;
+use Kusabi\Uri\Exceptions\InvalidUriException;
 use PHPUnit\Framework\TestCase;
 
 class InvalidUriExceptionTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Kusabi\Psr;
+namespace Kusabi\Uri;
 
-use Kusabi\Psr\Exceptions\InvalidUriException;
+use Kusabi\Uri\Exceptions\InvalidUriException;
 use Psr\Http\Message\UriFactoryInterface;
 use Psr\Http\Message\UriInterface;
 

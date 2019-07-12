@@ -1,6 +1,6 @@
 <?php
 
-namespace Kusabi\Psr\Exceptions;
+namespace Kusabi\Uri\Exceptions;
 
 use InvalidArgumentException;
 use Throwable;
