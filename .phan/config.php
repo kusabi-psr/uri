@@ -10,8 +10,7 @@ return [
     // If this is set to null,
     // then Phan assumes the PHP version which is closest to the minor version
     // of the php executable used to execute phan.
-    // TODO: Set this.
-    'target_php_version' => 7.2,
+    'target_php_version' => 7.0,
 
     // A list of directories that should be parsed for class and
     // method information. After excluding the directories
@@ -20,9 +19,10 @@ return [
     //
     // Thus, both first-party and third-party code being used by
     // your application should be included in this list.
+    // ONLY INCLUDE DIRECTORIES TO REAL DEPENDENCIES
     'directory_list' => [
         'src',
-        'vendor'
+        'vendor/psr'
     ],
 
     // A directory list that defines files that will be excluded
@@ -36,7 +36,7 @@ return [
     //       party code, directories containing that code
     //       should be added to both the `directory_list`
     //       and `exclude_analysis_directory_list` arrays.
-    "exclude_analysis_directory_list" => [
+    'exclude_analysis_directory_list' => [
         'vendor/'
     ],
 ];
