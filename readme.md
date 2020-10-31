@@ -1,7 +1,7 @@
 # Uri wrapper
 
 ![Tests](https://github.com/kusabi/uri/workflows/tests/badge.svg)
-[![codecov](https://codecov.io/gh/kusabi/uri/branch/master/graph/badge.svg)](https://codecov.io/gh/kusabi/dot)
+[![codecov](https://codecov.io/gh/kusabi/uri/branch/main/graph/badge.svg)](https://codecov.io/gh/kusabi/uri)
 [![Licence Badge](https://img.shields.io/github/license/kusabi/uri.svg)](https://img.shields.io/github/license/kusabi/uri.svg)
 [![Release Badge](https://img.shields.io/github/release/kusabi/uri.svg)](https://img.shields.io/github/release/kusabi/uri.svg)
 [![Tag Badge](https://img.shields.io/github/tag/kusabi/uri.svg)](https://img.shields.io/github/tag/kusabi/uri.svg)
